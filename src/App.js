@@ -1,18 +1,11 @@
-// import logo from './logo.svg';
-import './App.css';
+import Body from './components/Body';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          <h3 className='text-9xl text-red-400'>Hello World</h3>
-        </p>
-       
-      </header>
-    </div>
-  );
+const App=()=>{
+  return(
+    <>
+    <Body />
+    </>
+  )
 }
 
 export default App;
